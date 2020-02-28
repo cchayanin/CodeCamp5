@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 : Form</title>
+    <style>
+        @media screen and (max-width: 360px) {
+            #order {
+                width: 90vw;
+            }
+        }
+
+        @media only screen and (min-width: 360px) and (max-width: 1024px) {
+            #order {
+                width: 80;
+            }
+        }
+
+
+        @media only screen and (min-width: 1024px) and (max-width: 1920px) {
+            #order {
+                width: 60vw;
+            }
+        }
+
+        @media only screen and (min-width: 1920px) {
+            #order {
+                width: 40vw;
+            }
+        }
+
+        #order {
+            border: 1px solid black;
+            padding: 1px
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post.html" method="post">
+        <div id="order">
+            <div style="text-align: center; border: 1px solid black;padding: 2px">Pizz Shop 2.0</div>
+            <div style="display:flex; margin: 1px 0 1px 0;">
+                <span
+                    style="display:inline-block; border: 1px solid black;padding: 2px; width: 20%;margin-right: 1px;">Name</span>
+                <span
+                    style="display:inline-block; border: 1px solid black;padding: 2px; width: 80%;margin-left: 1px"><input
+                        type="text" name="name" style="width: 60%;"></input></span>
+            </div>
+            <div style="display:flex; margin: 1px 0 1px 0;">
+                <span
+                    style="display:flex; flex-direction: column; justify-content:space-around; border: 1px solid black;padding: 2px; width: 20%;margin-right: 1px;">Pizz
+                    Topping</span>
+                <span style="display:inline-block; border: 1px solid black;padding: 2px; width: 80%;margin-left: 1px">
+                    <input type="radio" name="topping" value="supreme">Supreme</input><br>
+                    <input type="radio" name="topping" value="vegetarian">Vegetarian</input><br>
+                    <input type="radio" name="topping" value="hawaiian">Hawaiian</input><br>
+                </span>
+            </div>
+            <div style="display:flex; margin: 1px 0 1px 0;">
+                <span
+                    style="display:inline-block; border: 1px solid black;padding: 2px; width: 20%;margin-right: 1px;">Pizza
+                    Sauce</span>
+                <span style="display:inline-block; border: 1px solid black;padding: 2px; width: 80%;margin-left: 1px">
+                    <select name="sauce">
+                        <option value="tomato" selected>Tomato</option>
+                        <option value="barbeque">Barbeque</option>
+                        <option value="mayonnaise">Mayonnaise</option>
+                        <option value="secret">Secret Sauce</option>
+                    </select>
+                </span>
+            </div>
+            <div style="display:flex; margin: 1px 0 1px 0;">
+                <span
+                    style="display:inline-block; border: 1px solid black; padding: 2px; width: 20%;margin-right: 1px;">Optional
+                    Extras</span>
+                <span style="display:inline-block; border: 1px solid black; padding: 2px; width: 80%;margin-left: 1px">
+                    <input type="checkbox" name="extra_cheese" value="1">Extra Cheese</input>
+                    <input type="checkbox" name="gluten_free" value="1">Gluten Free Base</input>
+                </span>
+            </div>
+            <div style="border: 1px solid black; padding: 1px; margin: 1px;">
+                <span style="display: block;">Delivery Instructions:</span>
+                <span style="display: block; padding: 1px;">
+                    <textarea name="delivery" cols="50" rows="4" style="width: 99%;"></textarea>
+                </span>
+            </div>
+            <div style="border: 1px solid black; padding: 1px; margin: 1px;">
+                <input type="submit" value="Send my Order">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
