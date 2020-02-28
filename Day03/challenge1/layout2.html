@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #form2 {
+            width: 350px;
+            color: white;
+            background-color: hsl(270, 100%, 65%);
+            font-family: sans-serif;
+        }
+
+        .data-survey {
+            width: 90%;
+            background-color: hsl(270, 100%, 25%);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #form2 div>div>div>span {
+            display: block;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .head-survey {
+            margin: 1em;
+        }
+
+        .head-survey span {
+            display: block;
+            text-align: center;
+        }
+
+        .head-survey span h2 {
+            margin-bottom: 0;
+        }
+
+        .data-survey div {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        select:invalid,
+        select option[value=""] {
+            color: #999999;
+        }
+    </style>
+    <title>Layout 2</title>
+</head>
+
+<body>
+    <div id="form2">
+        <div>
+            <div class="head-survey">
+                <span>
+                    <h2>freeCodeCamp Survey Form</h2>
+                </span>
+                <span><i>Thank you for taking the time to help us</i></span>
+                <span><i>improve the platform</i></span>
+            </div>
+            <div class="data-survey">
+                <div>
+                    <span>Name</span>
+                    <span><input type="text" placeholder="Enter your name"></span>
+                </div>
+                <div>
+                    <span>Email</span>
+                    <span><input type="text" placeholder="Enter your Email"></span>
+                </div>
+                <div>
+                    <span>Age(optional)</span>
+                    <span><input type="text" placeholder="Age"></span>
+                </div>
+                <div>
+                    <span>Which option best describes your current role?</span>
+                    <span>
+                        <select required>
+                            <option value="" disabled selected hidden>Select current role</option>
+                        </select>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        Would you recommend freeCodeCamp to a friend?
+                    </span>
+                    <span>
+                        <input type="radio" checked> Definitely<br>
+                        <input type="radio"> Maybe<br>
+                        <input type="radio"> Not sure
+                    </span>
+                </div>
+                <div>
+                    <span>What is your favorite feature of freeCodeCamp?</span>
+                    <span>
+                        <select required>
+                            <option value="" disabled selected hidden>Select an option</option>
+                        </select>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        What would you like to see improved?<br>
+                        (check all that apply)
+                    </span>
+                    <span>
+                        <input type="checkbox"> Front-end Projects<br>
+                        <input type="checkbox"> Back-end Projects<br>
+                        <input type="checkbox"> Data Visualization<br>
+                        <input type="checkbox"> Challenges<br>
+                        <input type="checkbox"> Open Source Community<br>
+                        <input type="checkbox"> Gitter Help rooms<br>
+                        <input type="checkbox"> Videos<br>
+                        <input type="checkbox"> City Meetups<br>
+                        <input type="checkbox"> Wiki<br>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
