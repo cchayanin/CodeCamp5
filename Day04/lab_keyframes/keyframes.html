@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #box {
+            position: relative;
+            display: inline-block;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            animation-name: blink1;
+            animation-duration: 10s;
+        }
+
+        #box2 {
+            position: relative;
+            display: inline-block;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            animation-name: blink2;
+            animation-duration: 10s;
+        }
+
+        @keyframes blink1 {
+            from {
+                color: white;
+                background-color: red;
+                border: 1 solid black;
+                width: 100px;
+                height: 100px;
+            }
+
+            to {
+                color: black;
+                background-color: wheat;
+                border: 1 solid red;
+                width: 400px;
+                height: 400px;
+            }
+
+        }
+
+        @keyframes blink2 {
+            0% {
+                color: white;
+                background-color: violet;
+                border: 1 solid black;
+                width: 100px;
+                height: 100px;
+            }
+
+            33% {
+                color: white;
+                background-color: blue;
+                border: 1 solid black;
+                width: 200px;
+                height: 200px;
+            }
+
+            66% {
+                color: black;
+                background-color: greenyellow;
+                border: 1 solid black;
+                width: 300px;
+                height: 300px;
+                float: right;
+            }
+
+            100% {
+                color: black;
+                background-color: red;
+                border: 1 solid black;
+                width: 400px;
+                height: 400px;
+                float: right;
+            }
+        }
+    </style>
+    <title>Keyframes</title>
+</head>
+
+<body>
+    <div id="box">
+        This is a Box1
+    </div>
+    <div id="box2">
+        This is a Box2
+    </div>
+</body>
+
+</html>
