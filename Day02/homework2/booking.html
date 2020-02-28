@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #container {
+            display: inline-block;
+            border: 1px solid black;
+            padding: 0.5em 0.5em;
+        }
+
+        .line-element {
+            display: block;
+            width: 25vw;
+        }
+
+        .input-element {
+            display: inline-block;
+            width: 10vw;
+            margin: 0.5em;
+        }
+
+        .input-element>select {
+            width: 100%;
+        }
+
+        .input-element>input[type="date"] {
+            width: 100%;
+        }
+
+        .number-element>select {
+            width: 100%;
+        }
+
+        .number-element {
+            display: inline-block;
+            width: 4vw;
+            margin: 0.5em;
+        }
+
+        input[type="button"] {
+            border-radius: 3px;
+            padding: 1em;
+            color: white;
+            background-color: red;
+        }
+    </style>
+    <title>Homework 2</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="line-element">
+            <div class="input-element">
+                <div>Flying from</div>
+                <select>
+                    <option value="" selected>Karachi, Pakist</option>
+                </select>
+            </div>
+            <div class="input-element">
+                <div>To</div>
+                <select name="" id="">
+                    <option value="" selected>Islamabad, Pakist</option>
+                </select>
+            </div>
+        </div>
+        <div class="line-element">
+            <div class="input-element">
+                <div>Departing</div>
+                <input type="date" value="2016-03-01">
+            </div>
+            <div class="input-element">
+                <div>Returning</div>
+                <input type="date">
+            </div>
+        </div>
+        <div class="line-element">
+            <div class="number-element">
+                <div>Adult</div>
+                <select required>
+                    <option value="" selected>1</option>
+                </select>
+            </div>
+            <div class="number-element">
+                <div>Child</div>
+                <select required>
+                    <option value="" selected>0</option>
+                </select>
+            </div>
+            <div class="number-element">
+                <div>Infant</div>
+                <select required>
+                    <option value="" selected>0</option>
+                </select>
+            </div>
+            <div class="number-element">
+                <div>Currency</div>
+                <select required>
+                    <option value="" selected>PKR</option>
+                </select>
+            </div>
+        </div>
+        <div class="line-element">
+            <div class="input-element">
+                <input type="button" value="SEARCH">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
