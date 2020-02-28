@@ -1,0 +1,20 @@
+html {
+  font-family: "Noto sans", sans-serif;
+}
+
+.main_hero {
+  height: 100vh;
+  background-image: url("../img/bookshelf.jpg");
+  background-size: cover;
+}
+
+#motto {
+  position: relative;
+  top: 1em;
+  left: 1em;
+  font-family: "Carter One";
+  color: whitesmoke;
+  font-size: 72px;
+  text-shadow: 2px 2px black;
+  z-index: 1;
+}
