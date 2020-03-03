@@ -2,7 +2,7 @@
 
 ## ชญานิน ชลหาญ
 
-![Lab Markdown](https://github.com/cchayanin/git-test)
+![Lab Markdown](https://github.com/cchayanin/git-test/blob/master/README.md)
 
 - ให้ลองเขียน markdown file
 
