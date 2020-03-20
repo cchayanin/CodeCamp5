@@ -8,9 +8,10 @@
 
 [Challenge 1 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/challenge1)
 
-[CSS : Display](https://github.com/cchayanin/CodeCamp5/tree/master/23.CSS/css-display)
+[CSS : Display](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/css-display)
 
-[Challenge 2 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/challenge2) [210 minutes](https://github.com/cchayanin/CodeCamp5/tree/7478701bf2b88d83863e620f4963c1d0ab10665d/Day03/challenge2)
+[Challenge 2 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/challenge2)  
+[210 minutes](https://github.com/cchayanin/CodeCamp5/tree/7478701bf2b88d83863e620f4963c1d0ab10665d/Day03/challenge2)
 
 [Lab Media Query](https://github.com/cchayanin/CodeCamp/tree/master/2.CSS/lab_media)
 
@@ -22,4 +23,4 @@
 
 [Lab Animation Shorthand](https://github.com/cchayanin/CodeCamp/tree/master/2.CSS/lab_shorthand)
 
-[Bootstrap](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/bootstrap)
+[Bootstrap](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS/lab_bootstrap)
