@@ -4,10 +4,6 @@
 
 [1.HTML](https://github.com/cchayanin/CodeCamp5/tree/master/1.HTML)
 
-[2.Form](https://github.com/cchayanin/CodeCamp5/tree/master/2.Form)
+[2.CSS](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS)
 
-[3.CSS](https://github.com/cchayanin/CodeCamp5/tree/master/3.CSS)
-
-[4.Bootstrap](https://github.com/cchayanin/CodeCamp5/tree/master/4.Bootstrap)
-
-[5.Git](https://github.com/cchayanin/CodeCamp5/tree/master/5.Git)
+[3.Git](https://github.com/cchayanin/CodeCamp5/tree/master/3.Git)
