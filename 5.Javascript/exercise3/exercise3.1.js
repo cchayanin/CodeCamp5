@@ -4,4 +4,6 @@ let a = 1,
 
 let c = ++a;
 let d = b++;
+
 // a, b, c = 2 และ d=1
+console.log(a, b, c, d);

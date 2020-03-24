@@ -25,10 +25,10 @@ function saveSecret() {
       } else if (guest < 0 || guest > 100) {
         alert("ตัวเลขต้องมีค่าระหว่าง 1 - 100");
       } else {
-        if (secret == guest) {
+        if (secret === guest) {
           alert("ถูกต้อง");
           break;
-        } else if (secret < guest) {
+        } else if (Number(secret) < Number(guest)) {
           alert("มากกว่า");
         } else {
           alert("น้อยกว่า");
