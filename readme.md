@@ -8,4 +8,4 @@
 
 [3.Git](https://github.com/cchayanin/CodeCamp5/tree/master/3.Git)
 
-[5.Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/3.Javascript)
+[5.Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript)
