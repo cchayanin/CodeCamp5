@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        alert(null || 2 || undefined); //2 เพราะมีค่าความจริงเป็น true
+
+        alert(alert(1) || 2 || alert(3)); //2 แสดงคำสั่ง alert(1) และมีค่าความจริงเป็น false จากนั้น return 2 เพระามีค่าความจริงเป็น true
+
+        alert(1 && null && 2); //null เพราะ null มีค่าความจริงเป็น false
+
+        alert(alert(1) && alert(2)) //แสดงคำสั่ง alert(1) และ return undefine เพราะเป็นค่า original ของ alert(1)
+
+        alert(null || 2 && 3 || 4); //3 เพราะจะทำ 2&&3 ก่อน เมื่อเป็นจริงทั้งสองตัว จะคืนตัวสุดท้าย คือ 3 จากนั้น ทำ or เมื่อเจอค่าความจริงเป็น true จึง return 3
+    </script>
+    <title>Exercise 6.1</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

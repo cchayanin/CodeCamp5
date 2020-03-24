@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (-1 || 0) alert('first'); //แสดง เพราะมีค่าความจริงเป็น true
+        if (-1 && 0) alert('second'); //ไม่แสดง เพราะมีค่าความจริงเป็น false
+        if (null || -1 && 0) alert('third'); //ไม่แสดง มีค่าความจริงเป็น false เพราะ -1 && 0 จะทำก่อนและได้ค่าความจริงเป็น false จากนั้นเมื่อมา or กับ null ซึ่งจะได้ค่าความจริงเป็น false
+    </script>
+    <title>Exercise 6.4</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
