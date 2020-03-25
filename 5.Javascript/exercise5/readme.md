@@ -38,15 +38,15 @@
     let score = prompt("กรุณาระบุคะแนน");
 
     if (score >= 80) {
-    alert("Grade A");
+      alert("Grade A");
     } else if (score >= 70) {
-    alert("Grade B");
+      alert("Grade B");
     } else if (score >= 60) {
-    alert("Grade C");
+      alert("Grade C");
     } else if (score >= 50) {
-    alert("Grade D");
+      alert("Grade D");
     } else {
-    alert("Grade F");
+      alert("Grade F");
     }
 ```
 
