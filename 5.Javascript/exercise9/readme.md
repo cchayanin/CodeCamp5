@@ -220,24 +220,17 @@ function draw(n) {
 ```
     function draw(n) {
     let star = "";
-    for (let i = 1; i <= n + (n - 1); i++) {
+    let line = 2 * n - 1;
+    let column = n;
+    for (let i = 1; i <= line; i++) {
+        for (let j = 1; j <= column; j++) {
         if (i <= n) {
-        for (let j = 1; j <= i; j++) {
-            star += "*";
-        }
-        for (let k = 1; k <= n - i; k++) {
-            star += "-";
-        }
-        star += "\n";
+            j <= i ? (star += "*") : (star += "-");
         } else {
-        for (let l = i; l <= n + (n - 1); l++) {
-            star += "*";
+            j <= line - i + 1 ? (star += "*") : (star += "-");
         }
-        for (let m = 1; m <= i - n; m++) {
-            star += "-";
         }
         star += "\n";
-        }
     }
     console.log(star);
     }
