@@ -1,13 +1,8 @@
 function draw(n) {
   let star = "";
-  let count = 0;
   for (let i = 1; i <= n; i++) {
-    for (let j = 1; j <= i; j++) {
-      star += "*";
-      count = j;
-    }
-    for (k = count; k < n; k++) {
-      star += "-";
+    for (let j = 1; j <= n; j++) {
+      j <= i ? (star += "*") : (star += "-");
     }
     star += "\n";
   }
