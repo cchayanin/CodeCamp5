@@ -4,7 +4,9 @@
 
 ### จงเขียน method draw(int n) ให้ print ออกมาในกรณีที่ n มีค่าต่างๆ ได้ผลลัพธ์ดังนี้
 
-1. ![1](1.png)
+1.
+
+![1](1.png)
 
 ```
     function draw(n) {
@@ -16,7 +18,9 @@
     }
 ```
 
-2. ![2](2.png)
+2.
+
+![2](2.png)
 
 ```
 function draw(n) {
@@ -31,7 +35,9 @@ function draw(n) {
 }
 ```
 
-3. ![3](3.png)
+3.
+
+![3](3.png)
 
 ```
     function draw(n) {
@@ -46,7 +52,9 @@ function draw(n) {
     }
 ```
 
-4. ![4](4.png)
+4.
+
+![4](4.png)
 
 ```
 function draw(n) {
@@ -61,7 +69,9 @@ function draw(n) {
 }
 ```
 
-5. ![5](5.png)
+5.
+
+![5](5.png)
 
 ```
     function draw(n) {
@@ -76,7 +86,9 @@ function draw(n) {
     }
 ```
 
-6. ![6](6.png)
+6.
+
+![6](6.png)
 
 ```
     function draw(n) {
@@ -93,7 +105,9 @@ function draw(n) {
     }
 ```
 
-7. ![7](7.png)
+7.
+
+![7](7.png)
 
 ```
     function draw(n) {
@@ -110,7 +124,9 @@ function draw(n) {
     }
 ```
 
-8. ![8](8.png)
+8.
+
+![8](8.png)
 
 ```
     function draw(n) {
@@ -125,7 +141,9 @@ function draw(n) {
     }
 ```
 
-9. ![9](10.png)
+9.
+
+![9](10.png)
 
 ```
     function draw(n) {
@@ -140,7 +158,9 @@ function draw(n) {
     }
 ```
 
-10. ![10](10.png)
+10.
+
+![10](10.png)
 
 ```
     function draw(n) {
@@ -155,7 +175,9 @@ function draw(n) {
     }
 ```
 
-11. ![11](11.png)
+11.
+
+![11](11.png)
 
 ```
     function draw(n) {
@@ -170,7 +192,9 @@ function draw(n) {
     }
 ```
 
-12. ![12](12.png)
+12.
+
+![12](12.png)
 
 ```
     function draw(n) {
@@ -185,7 +209,9 @@ function draw(n) {
     }
 ```
 
-13. ![13](13.png)
+13.
+
+![13](13.png)
 
 ```
 function draw(n) {
@@ -200,7 +226,9 @@ function draw(n) {
 }
 ```
 
-14. ![14](14.png)
+14.
+
+![14](14.png)
 
 ```
     function draw(n) {
@@ -215,7 +243,9 @@ function draw(n) {
     }
 ```
 
-15. ![15](15.png)
+15.
+
+![15](15.png)
 
 ```
     function draw(n) {
@@ -238,7 +268,9 @@ function draw(n) {
 
 16. ไม่มี
 
-17. ![17](17.png)
+17.
+
+![17](17.png)
 
 ```
     function draw(n) {
@@ -256,7 +288,9 @@ function draw(n) {
     }
 ```
 
-18. ![18](18.png)
+18.
+
+![18](18.png)
 
 ```
     function draw(n) {
@@ -275,7 +309,9 @@ function draw(n) {
     }
 ```
 
-19. ![19](19.png)
+19.
+
+![19](19.png)
 
 ```
     function draw(n) {
@@ -304,7 +340,9 @@ function draw(n) {
     }
 ```
 
-20. ![20](20.png)
+20.
+
+![20](20.png)
 
 ```
     function draw(n) {
@@ -336,7 +374,9 @@ function draw(n) {
     }
 ```
 
-21. ![21](21.png)
+21.
+
+![21](21.png)
 
 ```
     function draw(n) {
@@ -353,7 +393,9 @@ function draw(n) {
     }
 ```
 
-22. ![22](22.png)
+22.
+
+![22](22.png)
 
 ```
 function draw(n) {
@@ -370,7 +412,9 @@ function draw(n) {
 }
 ```
 
-23. ![23](23.png)
+23.
+
+![23](23.png)
 
 ```
     function draw(n) {
@@ -391,7 +435,9 @@ function draw(n) {
     }
 ```
 
-24. ![24](24.png)
+24.
+
+![24](24.png)
 
 ```
     function draw(n) {
