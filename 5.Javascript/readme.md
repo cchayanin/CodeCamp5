@@ -23,3 +23,7 @@
 [Exercise 7 วงวน for และ while](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript/exercise7)
 
 [Exercise 8 Swtich Cases](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript/exercise8)
+
+[Exercise 9 แบบฝึกหัดพิเศษ](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript/exercise9)
+
+[Exercise 10 Arrow Function](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript/exercise10)
