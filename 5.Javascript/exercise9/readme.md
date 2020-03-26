@@ -406,7 +406,7 @@ function draw(n) {
     }
 ```
 
-24. ![24](24)
+24. ![24](24.png)
 
 ```
     function draw(n) {
