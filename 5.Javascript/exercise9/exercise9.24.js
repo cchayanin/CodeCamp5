@@ -6,23 +6,16 @@ function draw(n) {
   for (let i = 1; i <= line; i++) {
     for (let j = 1; j <= column; j++) {
       if (i <= n) {
-        if (j > n - i && j < n + i) {
-          star += String(count);
-          count++;
-        } else {
-          star += "-";
-        }
+        j > n - i && j < n + i ? (star += String(count++)) : (star += "-");
       } else {
-        if (j <= i - n || j >= column - (i - n) + 1) {
-          star += "-";
-        } else {
-          star += String(count);
-          count++;
-        }
+        j <= i - n || j >= column - (i - n) + 1
+          ? (star += "-")
+          : (star += String(count++));
       }
     }
     star += "\n";
   }
+
   console.log(star);
 }
 
