@@ -10,7 +10,7 @@
 - เปลี่ยน properties name เป็น “Boy”
 - ลบ properties name ออกจาก Object
 
-```
+```javascript
 let obj = {};
 
 obj.name = "Sonter";
@@ -23,7 +23,7 @@ delete obj.name;
 
 ### 2. ให้เขียนฟังก์ชันชื่อ isEmpty(obj) โดยจะมี parameters เป็น obj และ ฟังก์ชันนี้จะเช็คว่า obj นี้มี properties ไหม ถ้ามีให้คืนค่า true ถ้าไม่มีให้คืนค่า false
 
-```
+```javascript
 function isEmpty(obj) {
   for (let _ in obj) return false;
   return true;
@@ -32,7 +32,7 @@ function isEmpty(obj) {
 
 ### 3. การเขียนข้างล่างต่อไปนี้ Error ไหม
 
-```
+```javascript
 const user = {
   name: "John"
 };
@@ -59,7 +59,7 @@ function sum(obj) {
 
 ### 5. จงเขียนฟังก์ชัน multiplyNumeric(obj, times) โดยถ้า properties นั้นมี value เป็น number ให้คุณ value นั้นด้วย times ถ้าข้อมูลเเป็นอย่างอื่นไม่ต้องทำอะไร
 
-```
+```javascript
 function multiplyNumeric(obj, times) {
   for (let key in obj) {
     if (typeof obj[key] !== "number") continue;

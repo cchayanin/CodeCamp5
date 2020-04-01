@@ -113,8 +113,6 @@ console.log(array6);
 array2 ["apple London", "banana Bangkok", "watermelon Singapore"]
 ```
 
----
-
 ```javascript
 let array7 = [
   { name: "apple", surname: "London" },

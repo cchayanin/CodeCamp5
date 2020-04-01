@@ -58,7 +58,7 @@ function sumInput() {
 }
 ```
 
-### 4. 4. Maximal contiguous subarray (**Optional**) ให้เขียนฟังก์ชัน getMaxSubSum(arr) ที่ return ผลรวมของ subarray ที่มากที่สุดที่ติดกัน
+### 4. Maximal contiguous subarray (**Optional**) ให้เขียนฟังก์ชัน getMaxSubSum(arr) ที่ return ผลรวมของ subarray ที่มากที่สุดที่ติดกัน
 
 ```javascript
 getMaxSubSum([-1, `2, 3`, -9]) == 5 (the sum of highlighted items)
