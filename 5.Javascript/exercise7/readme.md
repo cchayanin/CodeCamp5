@@ -44,13 +44,13 @@
 
 ### 4. ให้เขียน loop ทั้งแสดงเลข 2 ถึง 10 ออกมา
 
-```
+```javascript
 for (let i = 2; i <= 10; i++) {
   console.log(i);
 }
 ```
 
-```
+```javascript
 let i = 2;
 while (i < 11) {
   console.log(i);
@@ -60,20 +60,20 @@ while (i < 11) {
 
 ### 5. เปลี่ยน code for loop ด้านล่างนี้ให้เป็น while loop โดยที่ผลลัพธ์ยังเหมือนเดิม
 
-```
-  for (let i = 0; i < 3; i++) {
-    alert( `number ${i}!` );
-  }
+```javascript
+for (let i = 0; i < 3; i++) {
+  alert(`number ${i}!`);
+}
 ```
 
 ---
 
-```
-  let i = 0
-  while (i < 3) {
-    alert(`number ${i}!`);
-    i++;
-  }
+```javascript
+let i = 0;
+while (i < 3) {
+  alert(`number ${i}!`);
+  i++;
+}
 ```
 
 ### 6. ให้เขียนเกมส์ทายตัวเลขสำหรับเล่นสองคน โดย
@@ -83,40 +83,40 @@ while (i < 11) {
   [exercise7.6.html](exercise7.6.html)  
   [exercise7.6.js](exercise7.6.js)
 
-```
-  function saveSecret() {
-    let secret = document.getElementById("secret").value;
+```javascript
+function saveSecret() {
+  let secret = document.getElementById("secret").value;
+  document.getElementById("secret").value = "";
+  if (isNaN(secret)) {
     document.getElementById("secret").value = "";
-    if (isNaN(secret)) {
-      document.getElementById("secret").value = "";
-      document.getElementById("secret").focus();
-      alert("กรุณากรอกเฉพาะตัวเลข");
-    } else if (secret < 0 || secret > 100) {
-      document.getElementById("secret").value = "";
-      document.getElementById("secret").focus();
-      alert("ตัวเลขต้องมีค่าระหว่าง 1 - 100");
-    } else {
-      let guest;
-      while (true) {
-        guest = prompt("ทายตัวเลข");
-        if (guest === null) {
-          alert("ยกเลิก");
+    document.getElementById("secret").focus();
+    alert("กรุณากรอกเฉพาะตัวเลข");
+  } else if (secret < 0 || secret > 100) {
+    document.getElementById("secret").value = "";
+    document.getElementById("secret").focus();
+    alert("ตัวเลขต้องมีค่าระหว่าง 1 - 100");
+  } else {
+    let guest;
+    while (true) {
+      guest = prompt("ทายตัวเลข");
+      if (guest === null) {
+        alert("ยกเลิก");
+        break;
+      } else if (isNaN(guest)) {
+        alert("กรุณากรอกเฉพาะตัวเลข");
+      } else if (guest < 0 || guest > 100) {
+        alert("ตัวเลขต้องมีค่าระหว่าง 1 - 100");
+      } else {
+        if (secret === guest) {
+          alert("ถูกต้อง");
           break;
-        } else if (isNaN(guest)) {
-          alert("กรุณากรอกเฉพาะตัวเลข");
-        } else if (guest < 0 || guest > 100) {
-          alert("ตัวเลขต้องมีค่าระหว่าง 1 - 100");
+        } else if (Number(secret) < Number(guest)) {
+          alert("มากกว่า");
         } else {
-          if (secret === guest) {
-            alert("ถูกต้อง");
-            break;
-          } else if (Number(secret) < Number(guest)) {
-            alert("มากกว่า");
-          } else {
-            alert("น้อยกว่า");
-          }
+          alert("น้อยกว่า");
         }
       }
     }
   }
+}
 ```

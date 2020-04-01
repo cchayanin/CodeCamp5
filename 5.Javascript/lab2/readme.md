@@ -9,6 +9,6 @@
 - ตั้งชื่อตัวแปรที่ใช้เก็บที่อยู่ของบ้านคุณ
 - ตั้งชื่อตัวแปรที่ใช้เก็บอายุของจักรวาล
 
-```
+```javascript
 let cash, parentName, myAddress, universeAge;
 ```

@@ -9,12 +9,12 @@
 - นำค่าที่อยู่ในตัวแปร name ไปใส่ให้ human
 - เมื่อ console.log(human) ออกมาต้องเป็นชื่อตัวเอง
 
-```
-    let human, name;
+```javascript
+let human, name;
 
-    name = "Chayanin";
+name = "Chayanin";
 
-    human = name;
+human = name;
 
-    console.log(human);
+console.log(human);
 ```

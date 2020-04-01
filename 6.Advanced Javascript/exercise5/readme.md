@@ -4,33 +4,33 @@
 
 ### 1. การทำงานของ code ดังกล่าวจะได้อะไรออกมา
 
-```
+```javascript
 let user = {
   name: "John",
-  go: function() { alert(this.name) }
-}
-
-(user.go)()
+  go: function() {
+    alert(this.name);
+  }
+}(user.go)();
 ```
 
-`John`
+## `John`
 
 ### 2. การทำงานของ code ดังกล่าวจะได้อะไรออกมา
 
-```
+```javascript
 function makeUser() {
   return {
     name: "John",
     ref: this
   };
-};
+}
 
 let user = makeUser();
 
-alert( user.ref.name ); // What's the result?
+alert(user.ref.name); // What's the result?
 ```
 
-`alert("")`
+## `alert("")`
 
 ### 3. สร้าง object calculator จาก 3 methods นี้:
 
@@ -38,7 +38,7 @@ alert( user.ref.name ); // What's the result?
 - sum() คืนค่าผลบวกของ 2 ค่านั้น.
 - mul() คืนค่าผลคูณของ 2 ค่านั้น.
 
-```
+```javascript
 let calculator = {
   read() {
     this.number1 = +prompt("Enter First number");
@@ -52,6 +52,8 @@ let calculator = {
   }
 };
 ```
+
+---
 
 ### 4. ให้ Object ชื่อ ladder มีmethod ขึ้น และ ลง
 
@@ -72,7 +74,7 @@ ladder.up().up().down().showStep();
 
 ---
 
-```
+```javascript
 let ladder = {
   step: 0,
   up() {

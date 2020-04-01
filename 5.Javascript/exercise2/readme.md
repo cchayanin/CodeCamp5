@@ -12,11 +12,11 @@
 
 4. กำหนดตัวแปรสำหรับเก็บ**_ประวัติ_**ของนักเรียนโดยใช้ตัวแปรทั้ง 3 ตัวด้านบนประกอบการเขียนประวัตินี้ด้วย
 
-```
-    let name = "Ice";
-    let age = 34;
-    let address = "Khonkaen";
-    let profile = `My name is ${name}, I'm ${age} years old and I live in ${address}.`;
+```javascript
+let name = "Ice";
+let age = 34;
+let address = "Khonkaen";
+let profile = `My name is ${name}, I'm ${age} years old and I live in ${address}.`;
 
-    console.log(profile);
+console.log(profile);
 ```

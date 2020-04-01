@@ -10,7 +10,7 @@
 - โสดหรือไม่โสดเป็น boolean
 - คะแนนความฉลาดของตัวเองเป็น number (เต็ม 10)
 
-```
+```javascript
 let human = {
   name: "ice",
   age: 34,

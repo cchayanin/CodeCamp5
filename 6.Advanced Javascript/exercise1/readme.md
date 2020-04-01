@@ -4,7 +4,7 @@
 
 ### แก้ไขการเขียนโค้ดต่อไปนี้
 
-```
+```javascript
 function pow(x,n)
 {
   let result=1;
