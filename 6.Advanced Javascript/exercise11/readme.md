@@ -43,6 +43,43 @@ alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era"
 ```
 
 ```javascript
+// from solution
+function aclean(arr) {
+  let map = new Map();
+
+  for (let word of arr) {
+    let sorted = word
+      .toUpperCase()
+      .split("")
+      .sort()
+      .join("");
+    map.set(sorted, word);
+  }
+
+  return Array.from(map.values());
+}
+```
+
+```javascript
+// modified from solution
+function aclean(arr) {
+  let map = new Map();
+
+  for (let word of arr) {
+    let sorted = word
+      .toUpperCase()
+      .split("")
+      .sort()
+      .join("");
+    if (!map.has(sorted)) map.set(sorted, word);
+  }
+
+  return Array.from(map.values());
+}
+```
+
+```javascript
+// My Code without Map
 function aclean(arr) {
   let result = arr;
   for (let i = arr.length - 1; i >= 0; i--) {
@@ -67,7 +104,4 @@ function aclean(arr) {
   }
   return result;
 }
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
-
-console.log(aclean(arr));
 ```
