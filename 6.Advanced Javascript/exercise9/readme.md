@@ -72,6 +72,21 @@ getMaxSubSum([`1, 2, 3`]) == 6 (take all)
 ---
 
 ```javascript
+// from Solution
+function getMaxSubSum(arr) {
+  let subSum = 0;
+  let maxValue = 0;
+  for (let value of arr) {
+    subSum += value;
+    maxValue = Math.max(maxValue, subSum);
+    if (subSum < 0) subSum = 0;
+  }
+  return maxValue;
+}
+```
+
+```javascript
+// My Code without Math.max()
 function getMaxSubSum(arr) {
   let sum = 0;
   let tmp = -Infinity;
