@@ -7,7 +7,7 @@
 function truncate(str, maxlength) {
   let strLength = str.length;
   if (strLength <= maxlength) return str;
-  else return str.substring(0, maxlength) + "…";
+  else return str.substring(0, maxlength - 1) + "…";
 }
 
 console.log(truncate("What I'd like to tell on this topic is:", 20));
