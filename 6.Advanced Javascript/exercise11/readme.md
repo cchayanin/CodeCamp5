@@ -28,7 +28,7 @@ let values = [
   "Krishna",
   "Hare",
   "Hare",
-  ":-O"
+  ":-O",
 ];
 
 console.log(unique(values));
@@ -48,11 +48,7 @@ function aclean(arr) {
   let map = new Map();
 
   for (let word of arr) {
-    let sorted = word
-      .toUpperCase()
-      .split("")
-      .sort()
-      .join("");
+    let sorted = word.toUpperCase().split("").sort().join("");
     map.set(sorted, word);
   }
 
@@ -66,11 +62,7 @@ function aclean(arr) {
   let map = new Map();
 
   for (let word of arr) {
-    let sorted = word
-      .toUpperCase()
-      .split("")
-      .sort()
-      .join("");
+    let sorted = word.toUpperCase().split("").sort().join("");
     if (!map.has(sorted)) map.set(sorted, word);
   }
 
@@ -86,16 +78,8 @@ function aclean(arr) {
     for (let j = 0; j < arr.length; j++) {
       if (
         i != j &&
-        arr[i]
-          .toUpperCase()
-          .split("")
-          .sort()
-          .join("") ==
-          arr[j]
-            .toUpperCase()
-            .split("")
-            .sort()
-            .join("")
+        arr[i].toUpperCase().split("").sort().join("") ==
+          arr[j].toUpperCase().split("").sort().join("")
       ) {
         result.splice(i, 1);
         break;
@@ -104,4 +88,27 @@ function aclean(arr) {
   }
   return result;
 }
+```
+
+### 3. เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้ เราจะทำยังไงให้ keys.push สามารถทำงานได้
+
+```javascript
+let map = new Map();
+
+map.set("name", "John");
+
+let keys = map.keys();
+
+//Error: keys.push is not a function
+keys.push("more");
+```
+
+```javascript
+let map = new Map();
+
+map.set("name", "John");
+
+let keys = Array.from(map.keys());
+
+keys.push("more");
 ```
