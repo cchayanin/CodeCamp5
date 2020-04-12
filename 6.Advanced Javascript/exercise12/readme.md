@@ -26,7 +26,24 @@ function sumSalaries(salaries) {
 let salaries = {
   John: 100,
   Pete: 300,
-  Mary: 250
+  Mary: 250,
+};
+
+console.log(sumSalaries(salaries));
+```
+
+```javascript
+function sumSalaries(salaries) {
+  //Summary with Reduce
+  return Object.values(salaries).reduce((total, value) => {
+    return total + value;
+  }, 0);
+}
+
+let salaries = {
+  John: 100,
+  Pete: 300,
+  Mary: 250,
 };
 
 console.log(sumSalaries(salaries));
@@ -52,7 +69,7 @@ function count(obj) {
 
 let user = {
   name: "John",
-  age: 30
+  age: 30,
 };
 console.log(count(user));
 ```
