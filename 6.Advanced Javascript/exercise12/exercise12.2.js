@@ -8,13 +8,15 @@
 //   alert( count(user) ); // 2
 
 function count(obj) {
-  let count = 0;
-  for (let key in obj) count++;
-  return count;
+  return Object.entries(obj).length;
+
+  // let count = 0;
+  // for (let key in obj) count++;
+  // return count;
 }
 
 let user = {
   name: "John",
-  age: 30
+  age: 30,
 };
 console.log(count(user));
