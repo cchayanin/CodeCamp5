@@ -62,6 +62,18 @@ alert( count(user) ); // 2
 
 ```javascript
 function count(obj) {
+  return Object.entries(obj).length;
+}
+
+let user = {
+  name: "John",
+  age: 30,
+};
+console.log(count(user));
+```
+
+```javascript
+function count(obj) {
   let count = 0;
   for (let key in obj) count++;
   return count;
