@@ -226,7 +226,7 @@ let array12 = [
   let birth = new Date(value.birth);
   let date = `${birth.getDate()}`;
 
-  if (date < 2) date = `0${date}`;
+  if (date.length < 2) date = `0${date}`;
 
   let formatted_date = `${date} ${
     months[birth.getMonth()]
