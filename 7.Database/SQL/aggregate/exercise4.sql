@@ -1,5 +1,5 @@
 SELECT
-  *
+  sname
 FROM sailors
 WHERE
   age = (
