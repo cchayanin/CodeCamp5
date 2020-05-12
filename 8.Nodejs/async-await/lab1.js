@@ -7,7 +7,7 @@ function setTimeoutAndLog(input, millisec) {
   });
 }
 
-async function timeOut() {
+(async () => {
   try {
     await setTimeoutAndLog("A", 1000);
     await setTimeoutAndLog("B", 1000);
@@ -16,6 +16,4 @@ async function timeOut() {
   } catch (err) {
     console.log(err);
   }
-}
-
-timeOut();
+})();
