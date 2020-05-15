@@ -1,0 +1,15 @@
+GET http://localhost:3000/static
+###
+GET http://localhost:3000/staticjson
+###
+GET http://localhost:3000/echo?text=Heyyyy
+###
+GET http://localhost:3000/plus?a=3&b=5
+###
+GET http://localhost:3000/plusByJSON?jsonText={"a":3,"b":5}
+###
+GET http://localhost:3000/plus/6/7
+###
+GET http://localhost:3000/checkEvenNumber/3
+###
+GET http://localhost:3000/checkEvenNumber/4
