@@ -15,13 +15,6 @@ router.get('/', function (req, res) {
 module.exports = router
 
 ```
-- และลอง path ต่อไปนี้
-  - localhost:3000/user/?id=hello  
-  ![query1](query1.png)
-  - localhost:3000/user/?id=1234  
-  ![query2](query2.png)
-  - localhost:3000/user/?id=1&2  
-  ![query3](query3.png)
 
 *app.js*
 ```javascript
@@ -49,3 +42,11 @@ router.get("/", function (req, res) {
 
 module.exports = router;
 ```
+
+- และลอง path ต่อไปนี้
+  - localhost:3000/user/?id=hello  
+  ![query1](query1.png)
+  - localhost:3000/user/?id=1234  
+  ![query2](query2.png)
+  - localhost:3000/user/?id=1&2  
+  ![query3](query3.png)
