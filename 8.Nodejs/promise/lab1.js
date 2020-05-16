@@ -1,13 +1,13 @@
-function setTimeoutAndLog(input, time) {
+function setTimeoutAndLog(input) {
   return new Promise((resolve) => {
     setTimeout(() => {
       console.log(input);
       resolve();
-    }, time);
+    }, 1000);
   });
 }
 
-setTimeoutAndLog("A", 1000)
-  .then(() => setTimeoutAndLog("B", 1000))
-  .then(() => setTimeoutAndLog("C", 1000))
-  .then(() => setTimeoutAndLog("D", 1000));
+setTimeoutAndLog("A")
+  .then(() => setTimeoutAndLog("B"))
+  .then(() => setTimeoutAndLog("C"))
+  .then(() => setTimeoutAndLog("D"));
