@@ -10,4 +10,4 @@
 
 [Native prototype](https://github.com/cchayanin/CodeCamp5/tree/master/9.React/modern)
 
-[React Clicker Basic Example](https://github.com/cchayanin/cc5-react-clicker-example)
+[React Example](https://github.com/cchayanin/cc5-react-example)
