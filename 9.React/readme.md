@@ -8,6 +8,6 @@
 
 [Native prototype](https://github.com/cchayanin/CodeCamp5/tree/master/9.React/native)
 
-[Native prototype](https://github.com/cchayanin/CodeCamp5/tree/master/9.React/modern)
+[Modern prototype](https://github.com/cchayanin/CodeCamp5/tree/master/9.React/modern)
 
 [React Example](https://github.com/cchayanin/cc5-react-example)
