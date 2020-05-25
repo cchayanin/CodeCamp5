@@ -4,7 +4,7 @@
 
 ### 1. ให้ระบุค่าของ a, b, c และ d หลังจากจบ statements ทั้งสามบรรทัด
 
-```
+```javascript
   let a = 1, b = 1;
 
   let c = ++a;
@@ -15,7 +15,7 @@
 
 ### 2. จงหาผลลัพธ์ของ Statement ต่อไปนี้
 
-```
+```javascript
   1. "" + 1 + 0
   2. "" - 1 + 0
   3. true + false
@@ -35,7 +35,7 @@
 
 ---
 
-```
+```javascript
   10 (string)
   -1 (number)
   1 (number)
