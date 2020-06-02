@@ -26,4 +26,4 @@
 
 ### 4. เมื่อเรียบร้อยแล้ว ให้ส่ง web site นี้ขึ้น github.io ของตัวเอง
 
-> cchayanin.github.io
+> [github.io](https://cchayanin.github.io)
