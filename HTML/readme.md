@@ -2,7 +2,7 @@
 
 ## ชญานิน ชลหาญ
 
-[Lab1:HTTP](https://github.com/cchayanin/CodeCamp5/tree/master/HTML/lab1-http)
+[Lab1:HTTP](./lab1-http)
 
 [Lab2:Tag](https://github.com/cchayanin/CodeCamp5/tree/master/HTML/lab2-tag)
 

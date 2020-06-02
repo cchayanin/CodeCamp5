@@ -2,13 +2,13 @@
 
 ## ชญานิน ชลหาญ
 
-[Review 1](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review1)
+[Review 1](./review1)
 
 [Review 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review2)
 
 [Challenge 1](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge1)
 
-[CSS : Display](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-display)
+[Review 3](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-display)
 
 [Challenge 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge2)
 
