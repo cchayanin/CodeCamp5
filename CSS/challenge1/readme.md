@@ -9,6 +9,6 @@
 - แต่ละกลุ่มออกมาพรีเซ็นต์หน้าห้อง  
 - ออนไลน์ให้ทำตามกลุ่มพี่เจียง  
 
-  [Layout](layout1.html)
+> [Layout](cchayanin.githoub.io/challenge1.html)
 
   ![layout](layout.png)

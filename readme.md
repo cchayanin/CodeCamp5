@@ -4,14 +4,14 @@
 
 [HTML](./HTML)
 
-[CSS](https://github.com/cchayanin/CodeCamp5/tree/master/CSS)
+[CSS](./CSS)
 
-[Git](https://github.com/cchayanin/CodeCamp5/tree/master/Git)
+[Git](./Git)
 
-[Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/Javascript)
+[Javascript](./Javascript)
 
-[Database](https://github.com/cchayanin/CodeCamp5/tree/master/Database)
+[Database](./Database)
 
-[Nodejs](https://github.com/cchayanin/CodeCamp5/tree/master/Nodejs)
+[Nodejs](./Nodejs)
 
-[React](https://github.com/cchayanin/CodeCamp5/tree/master/React)
+[React](./React)

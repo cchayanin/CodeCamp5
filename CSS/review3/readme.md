@@ -1,8 +1,8 @@
 ## CodeCamp # 5
 
-### ชญานิน ชลหาญ
+## ชญานิน ชลหาญ
 
----
+### Review 3
 
 - value ใน display property มีอะไรบ้าง
 
@@ -10,6 +10,4 @@
 
 - justify and align แตกต่างกันอย่างไร
 
-- position คืออะไร และ อะไรบ้าง
-
-- z-index คืออะไรใช้อย่างไร
+> [Review 3](https://cchayanin.github.io/review3.html)
