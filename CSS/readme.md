@@ -6,11 +6,11 @@
 
 [Review 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review2)
 
-[Challenge 1 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge1)
+[Challenge 1](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge1)
 
 [CSS : Display](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-display)
 
-[Challenge 2 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge2)
+[Challenge 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge2)
 
 [Lab Media Query](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_media)
 

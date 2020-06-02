@@ -2,7 +2,7 @@
 
 ## ชญานิน ชลหาญ
 
-[HTML](https://github.com/cchayanin/CodeCamp5/tree/master/HTML)
+[HTML](./HTML)
 
 [CSS](https://github.com/cchayanin/CodeCamp5/tree/master/CSS)
 
