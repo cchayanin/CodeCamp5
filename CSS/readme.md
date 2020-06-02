@@ -2,9 +2,9 @@
 
 ## ชญานิน ชลหาญ
 
-[CSS : Review](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-review)
+[Review 1](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review1)
 
-[CSS : Declaration](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-declaration)
+[Review 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review2)
 
 [Challenge 1 : Layout](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge1)
 
