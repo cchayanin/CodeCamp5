@@ -4,16 +4,14 @@
 
 [HTML](https://github.com/cchayanin/CodeCamp5/tree/master/HTML)
 
-[2.CSS](https://github.com/cchayanin/CodeCamp5/tree/master/2.CSS)
+[CSS](https://github.com/cchayanin/CodeCamp5/tree/master/CSS)
 
-[3.Git](https://github.com/cchayanin/CodeCamp5/tree/master/3.Git)
+[Git](https://github.com/cchayanin/CodeCamp5/tree/master/Git)
 
-[5.Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/5.Javascript)
+[Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/Javascript)
 
-[6.Advanced Javascript](https://github.com/cchayanin/CodeCamp5/tree/master/6.Advanced%20Javascript)
+[Database](https://github.com/cchayanin/CodeCamp5/tree/master/Database)
 
-[7.Database](https://github.com/cchayanin/CodeCamp5/tree/master/7.Database)
+[Nodejs](https://github.com/cchayanin/CodeCamp5/tree/master/Nodejs)
 
-[8.Nodejs](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs)
-
-[9.React](https://github.com/cchayanin/CodeCamp5/tree/master/9.React)
+[React](https://github.com/cchayanin/CodeCamp5/tree/master/React)

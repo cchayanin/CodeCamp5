@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Noto Serif", sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      table th {
+        font-size: 1.2em;
+      }
+
+      th,
+      td {
+        width: 25%;
+        vertical-align: top;
+        border: 1px solid black;
+      }
+
+      #descendant div span {
+        color: red;
+      }
+
+      #child div > span {
+        color: red;
+      }
+
+      #general div ~ p {
+        color: red;
+      }
+
+      #adjacent div + p {
+        color: red;
+      }
+    </style>
+    <title>CSS Review</title>
+  </head>
+
+  <body>
+    <table>
+      <caption>
+        <h2>CSS</h2>
+      </caption>
+      <tr>
+        <th scope="col">CSS Syntax</th>
+        <th scope="col">CSS writing</th>
+        <th scope="col">Selector</th>
+        <th scope="col">Comibnator</th>
+      </tr>
+      <tr>
+        <td>
+          CSS syntax ประกอบด้วยสองส่วนคือ Select และ Declaration Block
+          ซึ่งมีได้ตั้งแต่หนึ่ง Declaration Block ขึ้นไปคั่นแยกจากกันด้วย
+          semicolon(;) ในแต่ละ Declation Block จะประกอบด้วยได้ค่า Property และ
+          Value
+        </td>
+        <td>
+          การเขียน CSS มีด้วยกันสามแบบ คือ
+          <ol>
+            <li>Inline - เขียนที่ html element ตัวนั้น ด้วย attribute style</li>
+            <li>
+              Internal - เขียนในไฟล์ html ด้วย &lt;style&gt; โดยภายใต้
+              &lt;head&gt;
+            </li>
+            <li>External - เขียนแยกเป็นไฟล์ CSS ต่างหาก</li>
+          </ol>
+        </td>
+        <td>
+          selector แบ่งได้เป็น 4 กลุ่ม คือ
+          <ul>
+            <li>
+              Basic selectors
+              <ul>
+                <li>Universal selector</li>
+                <li>Type selector/Element selector</li>
+                <li>Class selector</li>
+                <li>ID selector</li>
+                <li>Attribute selector</li>
+              </ul>
+            </li>
+            <li>
+              Grouping selectors
+              <ul>
+                <li>Selector list</li>
+              </ul>
+            </li>
+            <li>
+              Combinators
+              <ul>
+                <li>Descendant combinator</li>
+                <li>Child combinator</li>
+                <li>General sibling combinator</li>
+                <li>Adjacent sibling combinator</li>
+              </ul>
+            </li>
+            <li>
+              Pseudo
+              <ul>
+                <li>Pseudo classes</li>
+                <li>Pseudo elements</li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td>
+          Combinators มี 4 แบบ
+          <ul>
+            <li>Descendant combinator</li>
+            <li>Child combinator</li>
+            <li>General sibling combinator</li>
+            <li>Adjacent sibling combinator</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+
+    <h2>CSS Syntax Example</h2>
+    <p style="text-indent: 50px;">h1 {color:blue; font-size:12px}</p>
+    <h2>CSS Writing Example</h2>
+    <p style="text-indent: 50px;"></p>
+    <ul>
+      <li>
+        Inline :
+        <pre>
+            &lt;h1 style="color:blue;text-align:center;"&gt;This is a heading&lt;/h1&gt;
+            </pre
+        >
+      </li>
+      <li>
+        Internal :
+        <pre>
+            &lt;head&gt;
+                &lt;style&gt;
+                    body {
+                    background-color: linen;
+                    }
+
+                    h1 {
+                    color: maroon;
+                    margin-left: 40px;
+                    }
+                &lt;/style&gt;
+            &lt;/head&gt;
+        </pre>
+      </li>
+      <li>
+        External :
+        <pre>
+            &lt;head&gt;
+                &lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;
+            &lt;/head&gt;
+            </pre
+        >
+      </li>
+    </ul>
+
+    <table>
+      <caption>
+        <h2>Selector Example</h2>
+      </caption>
+      <tr>
+        <th scope="col">Selector</th>
+        <th scope="col">Example</th>
+      </tr>
+      <tr>
+        <td>Universal selector</td>
+        <td>
+          <pre style="display: inline;">
+* {
+    color: green;
+}
+            </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Type selector/Element selector</td>
+        <td>
+          <pre style="display: inline;">
+span {
+    background-color: skyblue;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Class selector</td>
+        <td>
+          <pre style="display: inline;">
+.container {
+    background-color: aqua;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>ID selector</td>
+        <td>
+          <pre style="display: inline;">
+#identified {
+    background-color: yellow;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Attribute selector</td>
+        <td>
+          <pre style="display: inline;">
+input[type="text"] {
+    background-color: limegreen;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Selector list</td>
+        <td>
+          <pre style="display: inline;">
+h1, h2, h3, h4, h5, h6 { 
+    font-family: helvetica; 
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Descendant combinator</td>
+        <td>
+          <pre style="display: inline;">
+ul li {
+    margin: 2em;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Child combinator</td>
+        <td>
+          <pre style="display: inline;">
+div > span {
+    background-color: DodgerBlue;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>General sibling combinator</td>
+        <td>
+          <pre style="display: inline;">
+p ~ span {
+    color: red;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Adjacent sibling combinator</td>
+        <td>
+          <pre style="display: inline;">
+span + p {
+    font-weight: bold;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Pseudo classes</td>
+        <td>
+          <pre style="display: inline;">
+a:hover {
+    color: fuchsia;
+}
+                </pre
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>Pseudo elements</td>
+        <td>
+          <pre style="display: inline;">
+p::first-line {
+    color: red;
+}
+                </pre
+          >
+        </td>
+      </tr>
+    </table>
+
+    <table>
+      <caption>
+        <h2>Combinator Example</h2>
+      </caption>
+      <tr>
+        <th scope="col">Combinator</th>
+        <th scope="col">Description</th>
+        <th scope="col">Example</th>
+        <th scope="col">Result</th>
+      </tr>
+      <tr>
+        <td>Descendant</td>
+        <td>ทุก element ที่ตรงกับ selector ภายใต้ element หลัก</td>
+        <td>
+          <pre>
+div span {
+    color: red;
+}         
+<hr>
+&lt;div&gt;
+    &lt;span&gt;I'm your child.&lt;/span&gt;
+    &lt;p&gt;
+        I'm p tag.
+        &lt;span&gt;I'm your grandchild in p tag.&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;h3&gt;
+        I'm h3 tag.
+        &lt;p&gt;
+            I'm p tag in h3 tag.
+            &lt;span&gt;I'm your great grandchild in p and h3 tag.&lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/h3&gt;
+&lt;/div&gt;
+</pre>
+        </td>
+        <td id="descendant">
+          <div>
+            <span>I'm your child.</span>
+            <p>
+              I'm p tag.
+              <span>I'm your grandchild in p tag.</span>
+            </p>
+            <h3>
+              I'm h3 tag.
+              <p>
+                I'm p tag in h3 tag.
+                <span>I'm your great grandchild in p and h3 tag.</span>
+              </p>
+            </h3>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Child</td>
+        <td>
+          เฉพาะ element ที่ตรงกับ selector ภายใต้ element หลักในระดับลูกเท่านั้น
+        </td>
+        <td>
+          <pre>
+div&gt;span {
+    color: red;
+}         
+<hr>
+&lt;div&gt;
+    &lt;span&gt;I'm your child.&lt;/span&gt;
+    &lt;p&gt;
+        I'm p tag.
+        &lt;span&gt;I'm your grandchild in p tag.&lt;/span&gt;
+    &lt;/p&gt;
+    &lt;h3&gt;
+        I'm h3 tag.
+        &lt;p&gt;
+            I'm p tag in h3 tag.
+            &lt;span&gt;I'm your great grandchild in p and h3 tag.&lt;/span&gt;
+        &lt;/p&gt;
+    &lt;/h3&gt;
+    &lt;span&gt;I'm your child too.&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+        </td>
+        <td id="child">
+          <div>
+            <span>I'm your child.</span>
+            <p>
+              I'm p tag.
+              <span>I'm your grandchild in p tag.</span>
+            </p>
+            <h3>
+              I'm h3 tag.
+              <p>
+                I'm p tag in h3 tag.
+                <span>I'm your great grandchild in p and h3 tag.</span>
+              </p>
+            </h3>
+            <span>I'm your child too.</span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>General sibling</td>
+        <td>
+          element ที่ตรงกับ selector ในระดับเดียวกับ element หลัก
+          และอยู่ด้านล่างทั้งหมด
+        </td>
+        <td>
+          <pre>
+div~p{
+    color: red;
+}
+<hr>
+&lt;p&gt;this p is not general sibling&lt;/p&gt;
+&lt;div&gt;this div is not general sibling&lt;/div&gt;
+&lt;p&gt;this p is general sibling&lt;/p&gt;
+&lt;span&gt;
+    &lt;p&gt;this p in span is not general sibling<&lt;/p&gt;
+&lt;/span&gt;
+&lt;div&gt;
+    &lt;p&gt;>this p in div is not general sibling&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;this p is general sibling&lt;/p&gt;
+                    </pre>
+        </td>
+        <td id="general">
+          <p>this p is not general sibling</p>
+          <div>this div is not general sibling</div>
+          <p>this p is general sibling</p>
+          <span>
+            <p>this p in span is not general sibling</p>
+          </span>
+          <div>
+            <p>this p in div is not general sibling</p>
+          </div>
+          <p>this p is general sibling</p>
+        </td>
+      </tr>
+      <tr>
+        <td>Adjacent sibling</td>
+        <td>
+          element ที่ตรงกับ selector ในระดับเดียวกันและอยู่ติดกับ element
+          หลักเท่านั้น
+        </td>
+        <td>
+          <pre>
+div+p{
+    color: red;
+}
+<hr>
+&lt;p&gt;this p is not adjacent sibling&lt;/p&gt;
+&lt;div&gt;this div is not adjacent sibling&lt;/div&gt;
+&lt;p&gt;this p is adjacent sibling&lt;/p&gt;
+&lt;span&gt;
+    &lt;p&gt;this p in span is not adjacent sibling&lt;/p&gt;
+&lt;/span&gt;
+&lt;h4&gt;
+    &lt;p&gt;>this p in h4 is not adjacent sibling&lt;/p&gt;
+&lt;/h4&gt;
+&lt;p&gt;this p is not adjacent sibling&lt;/p&gt;
+                    </pre>
+        </td>
+        <td id="adjacent">
+          <p>this p is not adjacent sibling</p>
+          <div>this div is not adjacent sibling</div>
+          <p>this p is adjacent</p>
+          <span>
+            <p>this p in span is not adjacent</p>
+          </span>
+          <h4>
+            <p>this p in h4 is not adjacent</p>
+          </h4>
+          <p>this p is not adjacent sibling</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
