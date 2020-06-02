@@ -4,22 +4,24 @@
 
 [Review 1](./review1)
 
-[Review 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/review2)
+[Review 2](./review2)
 
-[Challenge 1](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge1)
+[Challenge 1](./challenge1)
 
-[Review 3](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/css-display)
+[Review 3](./review3)
 
-[Challenge 2](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/challenge2)
+[Review 4](./review4)
 
-[Lab Media Query](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_media)
+[Challenge 2](./challenge2)
 
-[Lab Pimclick(not finished)](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_pimclick)
+[Lab Media Query](./lab_media)
 
-[Lab Keyframes](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_keyframes)
+[Lab Pimclick(not finished)](./lab_pimclick)
 
-[Lab Delay & Direction](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_delay)
+[Lab Keyframes](./lab_keyframes)
 
-[Lab Animation Shorthand](https://github.com/cchayanin/CodeCamp/tree/master/CSS/lab_shorthand)
+[Lab Delay & Direction](./lab_delay)
 
-[Bootstrap](https://github.com/cchayanin/CodeCamp5/tree/master/CSS/lab_bootstrap)
+[Lab Animation Shorthand](./lab_shorthand)
+
+[Bootstrap](./lab_bootstrap)
