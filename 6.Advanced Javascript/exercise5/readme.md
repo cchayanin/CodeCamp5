@@ -30,7 +30,7 @@ let user = makeUser();
 alert(user.ref.name); // What's the result?
 ```
 
-## `alert("")`
+## `Undefined`
 
 ### 3. สร้าง object calculator จาก 3 methods นี้:
 
