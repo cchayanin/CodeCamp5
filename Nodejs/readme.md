@@ -2,17 +2,17 @@
 
 ## ชญานิน ชลหาญ
 
-[Callback](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/callback)
+[Callback](./callback)
 
-[Promise](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/promise)
+[Promise](./promise)
 
-[Async/Await](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/async-await)
+[Async/Await](./async-await)
 
-[Express](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/express)
+[Express](./express)
 
-[Route](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/route)
+[Route](./route)
 
-[Static](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/static)
+[Static](./static)
 
 [Query String](./query)
 
