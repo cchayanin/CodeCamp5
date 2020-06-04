@@ -2,7 +2,7 @@
 
 ## ชญานิน ชลหาญ
 
-[git test](https://github.com/cchayanin/git-test)
+> [git test](https://github.com/cchayanin/git-test)
 
 - ให้สร้าง git reprository ใหม่
 
