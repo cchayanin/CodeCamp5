@@ -14,10 +14,10 @@
 
 [Static](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/static)
 
-[Query String](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/query)
+[Query String](./query)
 
-[Parameter](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/parameter)
+[Parameter](./parameter)
 
-[Body from Post METHOD](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/body)
+[Body from Post METHOD](./body)
 
-[Exercise](https://github.com/cchayanin/CodeCamp5/tree/master/8.Nodejs/exercise)
+[Exercise](./exercise)
